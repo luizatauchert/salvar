@@ -1,0 +1,36 @@
+.mini-pagina {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 100px;
+    background-color: #141921;
+    border: 1px solid #737373;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1000;
+    width: 150px;
+  }
+  
+  .mini-pagina a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .mini-pagina a:last-child {
+    border-bottom: none;
+  }
+  
+  .mini-pagina a:hover {
+    background-color: #0f111a;
+  }
+  
+  .config-header {
+    position: relative;
+  }
+  
+  .add-button {
+    cursor: pointer;
+  }
